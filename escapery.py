@@ -1,4 +1,4 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-escape_string = '\\n'
+ESCAPE_STRING = '\\n'

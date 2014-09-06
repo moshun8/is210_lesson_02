@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-is_true = True
-is_false = False
-is_none = None
+IS_TRUE = True
+IS_FALSE = False
+IS_NONE = None
 
-integer_equivs = is_true == 1 and is_false == 0
+INTEGER_EQUIVS = IS_TRUE == 1 and IS_FALSE == 0

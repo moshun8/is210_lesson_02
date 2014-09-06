@@ -3,7 +3,7 @@
 """Contains expectations."""
 
 import inquisition
-fishy = inquisition.SPANISH.replace('surprise', 'haddock')
-find_spanish = fishy.index("Spanish")
+FISHY = inquisition.SPANISH.replace('surprise', 'haddock')
+find_spanish = FISHY.index("Spanish")
 len_of_spanish = len("Spanish")
-flemish = fishy[0:find_spanish] + "Flemish" + fishy[(find_spanish+len_of_spanish):-1]
+FLEMISH = FISHY[0:find_spanish] + "Flemish" + FISHY[(find_spanish+len_of_spanish):-1]

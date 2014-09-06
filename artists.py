@@ -3,13 +3,13 @@
 """Asks the great question."""
 
 
-the_great_question = ('Michaelangelo. Leonardo. Rafael. Donatello. Turtles? '
+THE_GREAT_QUESTION = ('Michaelangelo. Leonardo. Rafael. Donatello. Turtles? '
                       'Creators of the great works? Both? You be the judge!')
-statements = the_great_question.split('. ')
-artists = statements[0:4]
+STATEMENTS = THE_GREAT_QUESTION.split('. ')
+ARTISTS = STATEMENTS[0:4]
 
-num_artists = len(artists) #4
-characters = len(the_great_question) #105
+NUM_ARTISTS = len(ARTISTS) #4
+CHARACTERS = len(THE_GREAT_QUESTION) #105
 
-has_creators = 'Creator' in the_great_question #returns true
-has_splinter = 'Splinter' in artists #returns false
+HAS_CREATORS = 'Creator' in THE_GREAT_QUESTION #returns true
+HAS_SPLINTER = 'Splinter' in ARTISTS #returns false

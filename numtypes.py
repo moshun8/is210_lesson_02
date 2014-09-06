@@ -4,12 +4,12 @@
 import decimal
 from fractions import Fraction
 
-floatvar = 1.0/10.0
+FLOATVAR = 1.0/10.0
 
-decimalvar = decimal.Decimal('0.1')
+DECIMALVAR = decimal.Decimal('0.1')
 
-fractionvar = Fraction(1, 10)
+FRACTIONVAR = Fraction(1, 10)
 
-df_equality = decimalvar == fractionvar
+DF_EQUALITY = DECIMALVAR == FRACTIONVAR
 
-are_inequal = floatvar != decimalvar != fractionvar
+ARE_EQUAL = FLOATVAR != DECIMALVAR != FRACTIONVAR

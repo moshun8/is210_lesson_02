@@ -6,4 +6,4 @@
 NOT_THE_QUESTION = 'The answer to life, the universe, and everything? It\'s '
 ANSWER = 42
 
-thanks_for_the_fish = str(NOT_THE_QUESTION) + str(ANSWER)
+THANKS_FOR_THE_FISH = str(NOT_THE_QUESTION) + str(ANSWER)
