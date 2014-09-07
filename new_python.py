@@ -1,3 +1,7 @@
-my_var = 'Some value'
-my_new_var = my_var * 2
-print my_new_var
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+'''a new variable'''
+
+MY_VAR = 'Some value'
+MY_NEW_VAR = MY_VAR * 2
+print MY_NEW_VAR
