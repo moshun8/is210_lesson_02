@@ -8,8 +8,8 @@ THE_GREAT_QUESTION = ('Michaelangelo. Leonardo. Rafael. Donatello. Turtles? '
 STATEMENTS = THE_GREAT_QUESTION.split('. ')
 ARTISTS = STATEMENTS[0:4]
 
-NUM_ARTISTS = len(ARTISTS) #4
-CHARACTERS = len(THE_GREAT_QUESTION) #105
+NUM_ARTISTS = len(ARTISTS)
+CHARACTERS = len(THE_GREAT_QUESTION)
 
-HAS_CREATORS = 'Creator' in THE_GREAT_QUESTION #returns true
-HAS_SPLINTER = 'Splinter' in ARTISTS #returns false
+HAS_CREATORS = 'Creator' in THE_GREAT_QUESTION
+HAS_SPLINTER = 'Splinter' in ARTISTS
