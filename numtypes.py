@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+'''types of numbers'''
 import decimal
 from fractions import Fraction
 
